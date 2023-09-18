@@ -1,0 +1,23 @@
+aside {
+    width: 20%;
+    float: left;
+    margin-right: 25px;
+    height: 100%;
+}
+
+body {
+    background-color: #dad93d;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list li {
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+div {
+    color: #85166f;
+}

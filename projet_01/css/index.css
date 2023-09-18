@@ -1,0 +1,58 @@
+.header {
+  color: blue;
+  padding-bottom: 50px;
+}
+
+.weather-icon {
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin-top: -30px;
+}
+
+.weekday-title {
+  color: purple;
+  text-align: center;
+}
+
+.temp {
+  color: black;
+  text-align: center;
+  font-size: 75px;
+  margin: 0;
+}
+
+.min-temp {
+  text-align: center;
+  color: cyan;
+}
+
+.max-temp {
+  text-align: center;
+  color: red;
+}
+
+.minmax {
+  gap: 50px;
+}
+
+aside {
+  width: 20%;
+  float: left;
+  margin-right: 25px;
+}
+
+.inner-container {
+  width: 100%;
+  float: middle;
+  margin: auto;
+  text-align: center;
+}
+
+.nav {
+  padding-top: 100px;
+}
+
+.innernav {
+  gap: 125px;
+}

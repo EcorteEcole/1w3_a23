@@ -1,0 +1,15 @@
+.container {
+  margin: auto;
+}
+
+.maincontainer {
+  width: 750px;
+  text-align: center;
+  float: middle;
+}
+
+.inlinecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

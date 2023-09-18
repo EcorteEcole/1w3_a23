@@ -1,0 +1,12 @@
+h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+#list {
+    list-style-type: circle;
+}
+
+body  {
+    background-color: gray;
+}
