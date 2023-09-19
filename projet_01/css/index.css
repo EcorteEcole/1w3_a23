@@ -56,3 +56,13 @@ aside {
 .innernav {
 	gap: 125px;
 }
+
+.center-table {
+	margin: 0 auto; /* Set left and right margin to auto */
+}
+
+.stats {
+	color: purple;
+	font-size: 30px;
+	font-weight: bold;
+}
