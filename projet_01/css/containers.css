@@ -1,15 +1,15 @@
 .container {
-  margin: auto;
+	margin: auto;
 }
 
 .maincontainer {
-  width: 750px;
-  text-align: center;
-  float: middle;
+	width: 750px;
+	text-align: center;
+	float: middle;
 }
 
 .inlinecontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
