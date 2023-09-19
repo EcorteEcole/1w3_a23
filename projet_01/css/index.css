@@ -1,3 +1,19 @@
+.container {
+	margin: auto;
+}
+
+.maincontainer {
+	width: 750px;
+	text-align: center;
+	float: middle;
+}
+
+.inlinecontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .header {
 	color: blue;
 	padding-bottom: 50px;
@@ -58,7 +74,8 @@ aside {
 }
 
 .center-table {
-	margin: 0 auto; /* Set left and right margin to auto */
+	margin: 0 auto;
+	/* Set left and right margin to auto */
 }
 
 .stats {
