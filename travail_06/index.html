@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.grid-container {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr); /* Adjust as needed */
+				gap: 10px;
+			}
+
+			.grid-item {
+				position: relative; /* Required for absolute positioning of .hover-div */
+			}
+
+			.hover-div {
+				display: none;
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-color: rgba(0, 0, 0, 0.8);
+				color: #fff;
+				padding: 10px;
+				width: 100%;
+				height: 100%;
+				opacity: 0;
+				transition: opacity 0.3s ease;
+			}
+
+			.grid-item:hover .hover-div {
+				display: block;
+				opacity: 1;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grid-container">
+			<div class="grid-item">
+				<img src="aladdin.jpg" alt="Image 1" />
+				<div class="hover-div">
+					<p>Aladinguerie</p>
+				</div>
+			</div>
+
+			<div class="grid-item">
+				<img src="avengers.jpg" alt="Image 2" />
+				<div class="hover-div">
+					<p>yo allo</p>
+				</div>
+			</div>
+
+			<!-- Add more grid items as needed -->
+		</div>
+	</body>
+</html>
