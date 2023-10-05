@@ -1,0 +1,17 @@
+h2 {
+	background-color: rgb(171, 161, 161);
+}
+
+div {
+	background-color: rgb(209, 201, 201);
+	border-left: dotted;
+}
+p {
+	padding-left: 1%;
+}
+
+img {
+	float: left;
+	margin-right: 10px;
+	padding-left: 1%;
+}
