@@ -16,6 +16,7 @@
 			crossorigin="anonymous"
 		></script>
 		<script src="js/index.js"></script>
+		<link rel="stylesheet" href="styles/styles.css" />
 	</head>
 	<body>
 		<h1 class="text-center">Calculateur de versements hypothécaires</h1>
@@ -48,8 +49,10 @@
 					<form>
 						<div class="mb-3">
 							<label for="mise" class="form-label">Mise de fonds ($)</label>
-							<input type="number" class="form-control" id="mise" />
-							<p id="pourcent"></p>
+							<div class="input-group">
+								<input type="number" class="form-control" id="mise" />
+								<span class="input-group-text" id="pourcent"></span>
+							</div>
 						</div>
 						<div class="mb-3">
 							<label for="taux" class="form-label">Taux en vigeur (%)</label>

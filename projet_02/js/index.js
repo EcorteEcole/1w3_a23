@@ -4,7 +4,7 @@ const fillForm = () => {
 	const mise = Number.parseFloat(document.querySelector('#mise').value);
 
 	document.querySelector('#montant').value = (cout - mise).toString();
-	document.querySelector('#pourcent').innerText = `${((mise / cout) * 100).toFixed(2)}%`;
+	document.querySelector('#pourcent').innerText = `(${((mise / cout) * 100).toFixed(2)}%)`;
 };
 
 const getResult = () => {
