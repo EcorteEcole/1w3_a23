@@ -51,6 +51,7 @@
 				"minimumDescriptionLength": 5
 			}
 		],
-		"react/jsx-filename-extension": [0]
+		"react/jsx-filename-extension": [0],
+		"unicorn/prefer-query-selector": "off"
 	}
 }
