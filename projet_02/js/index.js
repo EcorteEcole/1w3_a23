@@ -14,7 +14,7 @@ const getResult = () => {
 
 	const numerator = montant * taux * (1 + taux) ** paiment;
 	const denominator = (1 + taux) ** paiment - 1;
-	document.getElementById('#result').value = (numerator / denominator).toFixed(2).toString();
+	document.getElementById('result').value = (numerator / denominator).toFixed(2).toString();
 };
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
