@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 const fillForm = () => {
-	const cout = document.getElementById('cout');
-	const mise = document.getElementById('mise');
+	const cout = document.getElementById('cout').value;
+	const mise = document.getElementById('mise').value;
 
 	document.getElementById('montant').value = (cout - mise).toString();
 	document.getElementById('pourcent').innerText = `(${((mise / cout) * 100).toFixed(2)}%)`;

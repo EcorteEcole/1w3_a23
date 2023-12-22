@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<input type="text" id="saisi" />
+		<button onclick="crypter()">Crypter</button>
+		<p id="crypt"></p>
+		<script>
+			function crypter() {
+				document.getElementById('crypt').innerHTML = document
+					.getElementById('saisi')
+					.value.replaceAll(/[aA]/g, '1')
+					.replaceAll(/[eE]/g, '2')
+					.replaceAll(/[iI]/g, '3')
+					.replaceAll(/[oO]/g, '4')
+					.replaceAll(/[uU]/g, '5')
+					.replaceAll(/[yY]/g, '6');
+			}
+		</script>
+	</body>
+</html>
